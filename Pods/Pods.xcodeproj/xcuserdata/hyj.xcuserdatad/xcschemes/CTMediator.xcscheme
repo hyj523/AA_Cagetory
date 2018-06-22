@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C143D894F6B943DD45CC9A00822159B0"
-               BlueprintName = "Pods-AA_Cagetory"
+               BlueprintIdentifier = "E860DBFDF4A7872F6049CBAEAA721AD9"
+               BlueprintName = "CTMediator"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-AA_Cagetory.a">
+               BuildableName = "libCTMediator.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

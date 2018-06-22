@@ -9,5 +9,5 @@
 #import "CTMediator.h"
 
 @interface CTMediator (AA_Cagetory)
-
+- (UIViewController *)A_aViewControllerWithCallback:(void(^)(NSString *result))callback;
 @end

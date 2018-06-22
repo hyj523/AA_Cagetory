@@ -15,6 +15,7 @@
 		2087C64A20DCC7B300FECBA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C64920DCC7B300FECBA5 /* main.m */; };
 		2087C65420DCC7B300FECBA5 /* AA_CagetoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C65320DCC7B300FECBA5 /* AA_CagetoryTests.m */; };
 		2087C65F20DCC7B400FECBA5 /* AA_CagetoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C65E20DCC7B400FECBA5 /* AA_CagetoryUITests.m */; };
+		A33CA863E7A39D4740082770 /* libPods-AA_Cagetory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFDE0E0C26EC04D892AFEF9 /* libPods-AA_Cagetory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		2087C65A20DCC7B300FECBA5 /* AA_CagetoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AA_CagetoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2087C65E20DCC7B400FECBA5 /* AA_CagetoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AA_CagetoryUITests.m; sourceTree = "<group>"; };
 		2087C66020DCC7B400FECBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335B964BC08B4900FB521B9E /* Pods-AA_Cagetory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AA_Cagetory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AA_Cagetory/Pods-AA_Cagetory.debug.xcconfig"; sourceTree = "<group>"; };
+		35551A967DBFF02AA4A8429A /* Pods-AA_Cagetory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AA_Cagetory.release.xcconfig"; path = "Pods/Target Support Files/Pods-AA_Cagetory/Pods-AA_Cagetory.release.xcconfig"; sourceTree = "<group>"; };
+		6CFDE0E0C26EC04D892AFEF9 /* libPods-AA_Cagetory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AA_Cagetory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33CA863E7A39D4740082770 /* libPods-AA_Cagetory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				2087C65220DCC7B300FECBA5 /* AA_CagetoryTests */,
 				2087C65D20DCC7B300FECBA5 /* AA_CagetoryUITests */,
 				2087C63820DCC7B300FECBA5 /* Products */,
+				4D650651BBB50B1E285D5E49 /* Pods */,
+				DFFB9517AD057047D7E8EE42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = AA_CagetoryUITests;
 			sourceTree = "<group>";
 		};
+		4D650651BBB50B1E285D5E49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				335B964BC08B4900FB521B9E /* Pods-AA_Cagetory.debug.xcconfig */,
+				35551A967DBFF02AA4A8429A /* Pods-AA_Cagetory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFFB9517AD057047D7E8EE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFDE0E0C26EC04D892AFEF9 /* libPods-AA_Cagetory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2087C66320DCC7B400FECBA5 /* Build configuration list for PBXNativeTarget "AA_Cagetory" */;
 			buildPhases = (
+				E4A647F56C2A3E24D88CF03F /* [CP] Check Pods Manifest.lock */,
 				2087C63320DCC7B300FECBA5 /* Sources */,
 				2087C63420DCC7B300FECBA5 /* Frameworks */,
 				2087C63520DCC7B300FECBA5 /* Resources */,
@@ -259,6 +284,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4A647F56C2A3E24D88CF03F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AA_Cagetory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2087C63320DCC7B300FECBA5 /* Sources */ = {
@@ -428,6 +474,7 @@
 		};
 		2087C66420DCC7B400FECBA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335B964BC08B4900FB521B9E /* Pods-AA_Cagetory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +489,7 @@
 		};
 		2087C66520DCC7B400FECBA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35551A967DBFF02AA4A8429A /* Pods-AA_Cagetory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

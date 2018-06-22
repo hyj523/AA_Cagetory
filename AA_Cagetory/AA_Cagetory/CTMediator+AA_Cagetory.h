@@ -6,7 +6,7 @@
 //  Copyright © 2018年 hyj. All rights reserved.
 //
 
-#import "CTMediator.h"
+#import <CTMediator/CTMediator.h>
 
 @interface CTMediator (AA_Cagetory)
 - (UIViewController *)A_aViewControllerWithCallback:(void(^)(NSString *result))callback;

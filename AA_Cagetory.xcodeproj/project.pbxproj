@@ -15,6 +15,7 @@
 		2087C64A20DCC7B300FECBA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C64920DCC7B300FECBA5 /* main.m */; };
 		2087C65420DCC7B300FECBA5 /* AA_CagetoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C65320DCC7B300FECBA5 /* AA_CagetoryTests.m */; };
 		2087C65F20DCC7B400FECBA5 /* AA_CagetoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C65E20DCC7B400FECBA5 /* AA_CagetoryUITests.m */; };
+		2087C67020DCCCF600FECBA5 /* CTMediator+AA_Cagetory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C66F20DCCCF600FECBA5 /* CTMediator+AA_Cagetory.m */; };
 		A33CA863E7A39D4740082770 /* libPods-AA_Cagetory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFDE0E0C26EC04D892AFEF9 /* libPods-AA_Cagetory.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		2087C65A20DCC7B300FECBA5 /* AA_CagetoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AA_CagetoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2087C65E20DCC7B400FECBA5 /* AA_CagetoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AA_CagetoryUITests.m; sourceTree = "<group>"; };
 		2087C66020DCC7B400FECBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2087C66E20DCCCF600FECBA5 /* CTMediator+AA_Cagetory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+AA_Cagetory.h"; sourceTree = "<group>"; };
+		2087C66F20DCCCF600FECBA5 /* CTMediator+AA_Cagetory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+AA_Cagetory.m"; sourceTree = "<group>"; };
 		335B964BC08B4900FB521B9E /* Pods-AA_Cagetory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AA_Cagetory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AA_Cagetory/Pods-AA_Cagetory.debug.xcconfig"; sourceTree = "<group>"; };
 		35551A967DBFF02AA4A8429A /* Pods-AA_Cagetory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AA_Cagetory.release.xcconfig"; path = "Pods/Target Support Files/Pods-AA_Cagetory/Pods-AA_Cagetory.release.xcconfig"; sourceTree = "<group>"; };
 		6CFDE0E0C26EC04D892AFEF9 /* libPods-AA_Cagetory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AA_Cagetory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +111,7 @@
 		2087C63920DCC7B300FECBA5 /* AA_Cagetory */ = {
 			isa = PBXGroup;
 			children = (
+				2087C66C20DCCC9C00FECBA5 /* AA_Cagetory */,
 				2087C63A20DCC7B300FECBA5 /* AppDelegate.h */,
 				2087C63B20DCC7B300FECBA5 /* AppDelegate.m */,
 				2087C63D20DCC7B300FECBA5 /* ViewController.h */,
@@ -137,6 +141,15 @@
 				2087C66020DCC7B400FECBA5 /* Info.plist */,
 			);
 			path = AA_CagetoryUITests;
+			sourceTree = "<group>";
+		};
+		2087C66C20DCCC9C00FECBA5 /* AA_Cagetory */ = {
+			isa = PBXGroup;
+			children = (
+				2087C66E20DCCCF600FECBA5 /* CTMediator+AA_Cagetory.h */,
+				2087C66F20DCCCF600FECBA5 /* CTMediator+AA_Cagetory.m */,
+			);
+			path = AA_Cagetory;
 			sourceTree = "<group>";
 		};
 		4D650651BBB50B1E285D5E49 /* Pods */ = {
@@ -312,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2087C63F20DCC7B300FECBA5 /* ViewController.m in Sources */,
+				2087C67020DCCCF600FECBA5 /* CTMediator+AA_Cagetory.m in Sources */,
 				2087C64A20DCC7B300FECBA5 /* main.m in Sources */,
 				2087C63C20DCC7B300FECBA5 /* AppDelegate.m in Sources */,
 			);
